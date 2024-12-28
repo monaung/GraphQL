@@ -66,3 +66,6 @@ D:\Learning\API\GraphQL\GraphQL Course\MyGraphQLNet\obj\Debug\net9.0\MyGraphQLNe
 D:\Learning\API\GraphQL\GraphQL Course\MyGraphQLNet\obj\Debug\net9.0\MyGraphQLNet.genruntimeconfig.cache
 D:\Learning\API\GraphQL\GraphQL Course\MyGraphQLNet\obj\Debug\net9.0\ref\MyGraphQLNet.dll
 D:\Learning\API\GraphQL\GraphQL Course\MyGraphQLNet\bin\Debug\net9.0\Database\books.json
+D:\Learning\API\GraphQL\GraphQL Course\MyGraphQLNet\bin\Debug\net9.0\MyGraphQLNet.staticwebassets.runtime.json
+D:\Learning\API\GraphQL\GraphQL Course\MyGraphQLNet\obj\Debug\net9.0\MyGraphQLNet.sourcelink.json
+D:\Learning\API\GraphQL\GraphQL Course\MyGraphQLNet\obj\Debug\net9.0\compressed\cdegw9ulfo-ui2j53as9g.gz

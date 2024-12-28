@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MyGraphQLNet/client.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\client.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eruT6lTUVN3q7/8Ugd7eiULVJEQbc\u002BpIgd/SzztmbiE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1142"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022eruT6lTUVN3q7/8Ugd7eiULVJEQbc\u002BpIgd/SzztmbiE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Dec 2024 05:02:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MyGraphQLNet/client.ui2j53as9g.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\client.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ui2j53as9g"},{"Name":"integrity","Value":"sha256-eruT6lTUVN3q7/8Ugd7eiULVJEQbc\u002BpIgd/SzztmbiE="},{"Name":"label","Value":"_content/MyGraphQLNet/client.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1142"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022eruT6lTUVN3q7/8Ugd7eiULVJEQbc\u002BpIgd/SzztmbiE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 28 Dec 2024 05:02:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

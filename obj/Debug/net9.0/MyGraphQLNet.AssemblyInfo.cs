@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyGraphQLNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea9209eab5e7e4f5bc43ac33f12864d55228c5c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyGraphQLNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyGraphQLNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

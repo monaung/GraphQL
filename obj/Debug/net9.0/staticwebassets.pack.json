@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Learning\\API\\GraphQL\\GraphQL Course\\MyGraphQLNet\\wwwroot\\client.html",
+      "PackagePath": "staticwebassets\\client.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyGraphQLNet.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyGraphQLNet.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MyGraphQLNet.props",
+      "PackagePath": "build\\MyGraphQLNet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MyGraphQLNet.props",
+      "PackagePath": "buildMultiTargeting\\MyGraphQLNet.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MyGraphQLNet.props",
+      "PackagePath": "buildTransitive\\MyGraphQLNet.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

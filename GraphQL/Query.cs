@@ -1,8 +1,9 @@
+using System.Security.Claims;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using MyGraphQLNet.GraphQL;
 public class Query {
-    public List<Book> Books(string nameContains ="")
+    public List<Book> Books(ClaimsPrincipal claims, string nameContains ="")
     {
         string fileName = "Database/books.json";
         string jsonString = File.ReadAllText(fileName);

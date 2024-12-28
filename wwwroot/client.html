@@ -14,8 +14,9 @@
   <script>
     function runQuery() {     
 
-      var query = `query GetBooks  {
-		  books  {
+      var name = document.getElementById("filter").value;
+      var query = `query GetBooks($name: String)  {
+		  books (nameContains: $name)  {
 			name
 			pages
 		  }
@@ -28,7 +29,8 @@
           'Accept': 'application/json',
         },
         body: JSON.stringify({
-          query
+          query,
+          variables: {name}
         })
       })
         .then(r => r.json())
@@ -38,6 +40,7 @@
 </head>
 
 <body>
+  <input type="text" id="filter" placeholder="filter . . ." />
   <input type="button" value="Run GraphQL Query" onclick="runQuery()" />
   <br />
   <textarea id="results" cols="30" rows="10"></textarea>

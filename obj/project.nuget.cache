@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "06hGtQuDGMg=",
+  "dgSpecHash": "Hv12Rv8J5W4=",
   "success": true,
   "projectFilePath": "D:\\Learning\\API\\GraphQL\\GraphQL Course\\MyGraphQLNet\\MyGraphQLNet.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\wynnz\\.nuget\\packages\\hotchocolate\\14.3.0\\hotchocolate.14.3.0.nupkg.sha512",
     "C:\\Users\\wynnz\\.nuget\\packages\\hotchocolate.abstractions\\14.3.0\\hotchocolate.abstractions.14.3.0.nupkg.sha512",
     "C:\\Users\\wynnz\\.nuget\\packages\\hotchocolate.aspnetcore\\14.3.0\\hotchocolate.aspnetcore.14.3.0.nupkg.sha512",
+    "C:\\Users\\wynnz\\.nuget\\packages\\hotchocolate.aspnetcore.authorization\\14.3.0\\hotchocolate.aspnetcore.authorization.14.3.0.nupkg.sha512",
     "C:\\Users\\wynnz\\.nuget\\packages\\hotchocolate.authorization\\14.3.0\\hotchocolate.authorization.14.3.0.nupkg.sha512",
     "C:\\Users\\wynnz\\.nuget\\packages\\hotchocolate.costanalysis\\14.3.0\\hotchocolate.costanalysis.14.3.0.nupkg.sha512",
     "C:\\Users\\wynnz\\.nuget\\packages\\hotchocolate.execution\\14.3.0\\hotchocolate.execution.14.3.0.nupkg.sha512",

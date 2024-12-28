@@ -104,6 +104,25 @@
           "build/HotChocolate.AspNetCore.targets": {}
         }
       },
+      "HotChocolate.AspNetCore.Authorization/14.3.0": {
+        "type": "package",
+        "dependencies": {
+          "HotChocolate": "14.3.0"
+        },
+        "compile": {
+          "lib/net9.0/HotChocolate.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/HotChocolate.AspNetCore.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "HotChocolate.Authorization/14.3.0": {
         "type": "package",
         "dependencies": {
@@ -862,6 +881,29 @@
         "lib/net8.0/HotChocolate.AspNetCore.xml",
         "lib/net9.0/HotChocolate.AspNetCore.dll",
         "lib/net9.0/HotChocolate.AspNetCore.xml",
+        "strawberryshake-signet.png"
+      ]
+    },
+    "HotChocolate.AspNetCore.Authorization/14.3.0": {
+      "sha512": "NWx4+x4epI1opwY4ulIGyGumnTbObNFmOmde4RAY/VYF4vq8XVE1ijxaeJbAe8fv3y6191yayxS/xO9B9bctNg==",
+      "type": "package",
+      "path": "hotchocolate.aspnetcore.authorization/14.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "greendonut-signet.png",
+        "hotchocolate-signet.png",
+        "hotchocolate.aspnetcore.authorization.14.3.0.nupkg.sha512",
+        "hotchocolate.aspnetcore.authorization.nuspec",
+        "lib/net6.0/HotChocolate.AspNetCore.Authorization.dll",
+        "lib/net6.0/HotChocolate.AspNetCore.Authorization.xml",
+        "lib/net7.0/HotChocolate.AspNetCore.Authorization.dll",
+        "lib/net7.0/HotChocolate.AspNetCore.Authorization.xml",
+        "lib/net8.0/HotChocolate.AspNetCore.Authorization.dll",
+        "lib/net8.0/HotChocolate.AspNetCore.Authorization.xml",
+        "lib/net9.0/HotChocolate.AspNetCore.Authorization.dll",
+        "lib/net9.0/HotChocolate.AspNetCore.Authorization.xml",
         "strawberryshake-signet.png"
       ]
     },
@@ -1831,7 +1873,8 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "HotChocolate.AspNetCore >= 14.3.0"
+      "HotChocolate.AspNetCore >= 14.3.0",
+      "HotChocolate.AspNetCore.Authorization >= 14.3.0"
     ]
   },
   "packageFolders": {
@@ -1881,6 +1924,10 @@
         "targetAlias": "net9.0",
         "dependencies": {
           "HotChocolate.AspNetCore": {
+            "target": "Package",
+            "version": "[14.3.0, )"
+          },
+          "HotChocolate.AspNetCore.Authorization": {
             "target": "Package",
             "version": "[14.3.0, )"
           }
